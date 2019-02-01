@@ -7,6 +7,5 @@ def oxford_comma(array)
     with_commas + ", and " + last  #concat string and last element
   else
     array.join
-
   end
 end
