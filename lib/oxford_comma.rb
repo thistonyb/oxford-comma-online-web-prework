@@ -4,7 +4,7 @@ def oxford_comma(array)
   elsif array.length > 2
     last_element = array.pop
     with_commas = array.join(", ") #array turns into a string
-    with_commas + ", and " + last  #concat string and last element
+    with_commas + ", and " + last_element  #concat string and last element
   else
     array.join
   end
